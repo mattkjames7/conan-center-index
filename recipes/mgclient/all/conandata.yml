@@ -2,12 +2,6 @@ sources:
   "1.5.0":
     url: "https://github.com/memgraph/mgclient/archive/refs/tags/v1.5.0.tar.gz"
     sha256: "7934ee5fb2a5a9ddf861b9255cb092594e30b6b1fe88b55a4966d736933b5ef1"
-  "1.4.5":
-    url: "https://github.com/memgraph/mgclient/archive/refs/tags/v1.4.5.tar.gz"
-    sha256: "cbb8383fbf647ad3374e8b9a2b96b44a106f3255192e9c67141ac9efc5c52485"
-  "1.4.4":
-    url: "https://github.com/memgraph/mgclient/archive/refs/tags/v1.4.4.tar.gz"
-    sha256: "57aad41c748d8901e3225b132c64b902a9357430072364a7ebafb3f749e3ab20"
   "1.4.3":
     url: "https://github.com/memgraph/mgclient/archive/refs/tags/v1.4.3.tar.gz"
     sha256: "f446b469532cd5154b8fb986ac57ca9880763e34c77e564d2c4c948989b0244e"
@@ -17,14 +11,6 @@ sources:
 patches:
   "1.5.0":
     - patch_file: "patches/1.5.0-0001-static-shared.build.patch"
-      patch_description: "make static and shared build separated"
-      patch_type: "conan"
-  "1.4.5":
-    - patch_file: "patches/1.4.5-0001-static-shared.build.patch"
-      patch_description: "make static and shared build separated"
-      patch_type: "conan"
-  "1.4.4":
-    - patch_file: "patches/1.4.4-0001-static-shared.build.patch"
       patch_description: "make static and shared build separated"
       patch_type: "conan"
   "1.4.3":
